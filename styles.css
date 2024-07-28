@@ -1,0 +1,55 @@
+body, h1, a {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styling for the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fffbe6; /* Light yellow background */
+    color: #333;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Header styling */
+header {
+    background-color: #ffebf0; /* Light pink background */
+    border: 1px solid #f4a8b7; /* Slightly darker pink border */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Logo styling */
+header img {
+    border-radius: 50%;
+    margin-bottom: 20px;
+    border: 5px solid #ff8c94; /* Pink border around the image */
+}
+
+/* Main heading styling */
+h1 {
+    font-size: 2.5em;
+    color: #ff66b2; /* Bright pink color for the heading */
+    margin-bottom: 20px;
+}
+
+/* Navigation styling */
+nav {
+    margin-top: 20px;
+}
+
+/* Link styling */
+nav a {
+    text-decoration: none;
+    color: #ff66b2; /* Bright pink for links */
+    font-size: 1.2em;
+    margin: 0 15px;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #ff3399; /* Darker pink for hover effect */
+}

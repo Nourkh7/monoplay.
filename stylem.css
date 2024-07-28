@@ -1,0 +1,59 @@
+body, h1, h2, ul, li, a {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styling for the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff5e6; /* Light yellow background */
+    color: #333;
+    padding: 20px;
+}
+
+/* Main heading styling */
+h1 {
+    font-size: 2.5em;
+    color: #ff66b2; /* Bright pink color for the heading */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* List styling */
+ul {
+    list-style-type: none; /* Remove default list bullets */
+    padding: 0;
+    margin: 0;
+}
+
+/* List item styling */
+li {
+    margin-bottom: 20px;
+}
+
+/* Subheading styling */
+h2 {
+    font-size: 2em;
+    color: #ff66b2; /* Bright pink color for subheadings */
+    margin: 0;
+}
+
+/* Link styling */
+a {
+    color: #ff66b2; /* Bright pink for links */
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #ff3399; /* Darker pink for hover effect */
+}
+
+/* Container for better layout control */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
